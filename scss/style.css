@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Martian+Mono:wght@400;700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html p,
+html div,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body div {
+  margin: 0;
+  padding: 0;
+}
+
+header .dropdown-menu .dropdown-item:hover,
+#subheader .dropdown-menu .dropdown-item:hover {
+  background-color: #333537;
+}
+header .bi-bell-fill,
+header #kids,
+header .bi-search,
+header .dropdown > a,
+#subheader .bi-bell-fill,
+#subheader #kids,
+#subheader .bi-search,
+#subheader .dropdown > a {
+  transition: all 0.6s ease-in-out;
+}
+header .bi-bell-fill:hover,
+header #kids:hover,
+header .bi-search:hover,
+header .dropdown > a:hover,
+#subheader .bi-bell-fill:hover,
+#subheader #kids:hover,
+#subheader .bi-search:hover,
+#subheader .dropdown > a:hover {
+  color: rgb(238, 194, 0) !important;
+  border-color: rgb(238, 194, 0) !important;
+  cursor: pointer;
+}
+
+.active-li {
+  font-size: 1.2em;
+}
+
+.carousel-control-next {
+  padding-left: 13%;
+}
+.carousel-control-next .carousel-control-next-icon {
+  transform: scale(1.4);
+  padding: 0.7em;
+  background-color: black !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.carousel-control-prev {
+  padding-right: 13%;
+}
+.carousel-control-prev .carousel-control-prev-icon {
+  transform: scale(1.4);
+  background-color: black !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.smallerPlease {
+  font-size: 0.6em !important;
+}
+
+#mini {
+  font-size: 0.5em;
+}
+
+#btn-superWrap {
+  transition: all 0.4s ease-in-out;
+}
+#btn-superWrap:hover {
+  background-color: red !important;
+  color: white !important;
+}
+#btn-superWrap:hover border {
+  width: 1px !important;
+  border-style: solid !important;
+  color: white !important;
+}
+
+.bi-pencil-fill:hover {
+  cursor: pointer;
+}
+
+p.text-info,
+#btn1,
+#strive,
+.smaller2,
+span.text-end {
+  font-size: 0.8em;
+}
+
+p.text-info,
+span.text-end {
+  transition: all 0.9s;
+}
+p.text-info:hover,
+span.text-end:hover {
+  cursor: pointer;
+  color: rgb(88, 158, 249) !important;
+}
+
+.smaller {
+  font-size: 0.9em;
+}
+
+.classFont {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+}
+
+.classFont2 {
+  font-family: "Martian Mono", monospace;
+}/*# sourceMappingURL=style.css.map */

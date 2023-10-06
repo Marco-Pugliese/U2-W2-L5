@@ -1,0 +1,18 @@
+#btn-superWrap {
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    background-color: red !important;
+    color: white !important;
+    border {
+      width: 1px !important;
+      border-style: solid !important; // non so perché ma style non lo legge senza border purtroppo
+      color: white !important;
+    }
+  }
+}
+
+.bi-pencil-fill {
+  &:hover {
+    cursor: pointer;
+  }
+}

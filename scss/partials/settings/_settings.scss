@@ -1,0 +1,25 @@
+p.text-info,
+#btn1,
+#strive,
+.smaller2,
+span.text-end {
+  font-size: 0.8em;
+}
+p.text-info,
+span.text-end {
+  transition: all 0.9s;
+  &:hover {
+    cursor: pointer;
+    color: rgb(88, 158, 249) !important;
+  }
+}
+.smaller {
+  font-size: 0.9em;
+}
+.classFont {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+}
+.classFont2 {
+  font-family: "Martian Mono", monospace;
+}

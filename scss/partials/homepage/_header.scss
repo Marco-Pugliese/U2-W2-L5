@@ -1,0 +1,22 @@
+header,
+#subheader {
+  .dropdown-menu .dropdown-item {
+    &:hover {
+      background-color: #333537;
+    }
+  }
+  .bi-bell-fill,
+  #kids,
+  .bi-search,
+  .dropdown > a {
+    transition: all 0.6s ease-in-out;
+    &:hover {
+      color: rgb(238, 194, 0) !important;
+      border-color: rgb(238, 194, 0) !important;
+      cursor: pointer;
+    }
+  }
+}
+.active-li {
+  font-size: 1.2em;
+}

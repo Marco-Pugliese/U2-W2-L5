@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html p,
+html div,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body div {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=reset.css.map */
